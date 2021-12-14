@@ -1,0 +1,9 @@
+<p>Calculator!</p>
+Number 1: <input type="number" #a  > <br>
+Number 2: <input type="number" #b ><br>
+<button type="submit" on-click="Add(a.value,b.value)">Add</button>
+
+<button type="submit" on-click="Sub(a.value,b.value)">Sub</button>
+<button type="submit" on-click="Mul(a.value,b.value)">Mul</button>
+<button type="submit" on-click="Div(a.value,b.value)">Div</button> <br>
+Result: {{c}}
